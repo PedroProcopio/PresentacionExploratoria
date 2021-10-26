@@ -1,0 +1,163 @@
+version: "2.0"
+
+nlu:
+- intent: start
+  examples: |
+    - start
+    - /start
+    - /setprivacy
+- intent: saludar
+  examples: |
+    - ey
+    - hola
+    - ola
+    - buen dia
+    - buenas tardes
+    - buenas noches
+    - como te va?
+    - che
+    - che amigo
+    - como estas?
+
+- intent: despedirse
+  examples: |
+    - nos vemos
+    - hasta mañana
+    - nos vemos luego
+    - adios
+    - chau
+    - nos re vimos
+    - nv
+    - chau chau
+    - adios adios
+    
+- intent: C1 #muestra solidaridad
+  examples: |
+    - Vamos bien ! 
+    - Dejame que te explico 
+    - No hay problema dejame que te ayudo
+    - te explico
+    - esto es asi
+    - tranqui, es dificil de entender.
+    - no pasa nada, tranquilo 
+
+- intent: C2 #Muestra relajamiento
+  examples: |
+    - Genial!
+    - Muy bien!
+    - Perfecto! 
+    - Gracias chicos
+    - Gracias chic@s 
+    - gracias
+    - muchas gracias
+    - estoy agradecido
+    - mil gracias
+    - de una
+    - genial
+    - joya
+    - buenisimo
+    - bueno
+- intent: C3 #Acuerdo o aprobacion 
+  examples: |
+    - me parece bien
+    - correcto
+    - estoy de acuerdo
+    - creo que es una buena idea
+    - buena idea
+    - Si, estoy de acuerdo
+    - fantastica idea
+    - afirmo
+    - genial
+    - exactamente
+    - coincido con vos
+    - concuerdo con vos
+    - concuerdo con tu idea
+    - concuerdo
+    - si
+
+- intent: C4  #Da opinion
+  examples: |
+    - intentemos 
+    - en lugar de eso podriamos 
+    - tenemos que hacer esto  
+    - podriamos hacer
+    - En lugar de eso podriamos
+    - hay que hacer lo siguiente
+    - yo creo que debemos intentar
+    - propongo que
+    - propongo lo siguiente
+    - que te parece si 
+    - tengo una idea
+    - me gustaria proponer una idea
+    - me gustaria proponer
+    - tengo una propuesta diferente
+    - mi idea es
+    - podriamos ver esto
+
+- intent: C5 #Da informacion 
+  examples: |
+    - Esto es asi
+    - Da así
+    - Lo que tenes que hacer es esto 
+    - Lo que dijo la profesora fue que
+    - La profe dijo que 
+    - Acuerdense de que 
+    - Resuemiendo
+    - En otras palabras
+    - Significa que 
+
+- intent: C6 #pide informacion - Tension 
+  examples: |
+    - tengo una duda
+    - por favor, expliquenme
+    - explicame
+    - expliquenme
+    - que falta considerar?
+    - me explicas de nuevo?
+    - me explicarias?
+    - no entendi
+    - no capte la idea
+    - no entiendo
+    - no entendi, por favor dame mas informacion
+    - dame informacion
+    - necesito informacion
+    - no creo haber entendido
+
+- intent: C7 #Pide_opinion 
+  examples: |
+    - porque?
+    - se puede?
+    - estan de acuerdo?
+    - coinciden?
+    - estan seguros?
+    - que piensan?
+    - opiniones?
+    - que opinan
+    - que opinan?
+    - cual es su idea?
+    - alguien piensa distinto?
+    - pensas distinto?
+    - quiza tenes otra idea
+
+- intent: C8 #Pide sugerencias u orientacion
+  examples: |
+    - Que hacemos ahora ? 
+    - Que quieren hacer ? 
+    - Que nos queda por hacer ? 
+    - Que nos falta ? 
+
+- intent: C9 #desacuerdo - Antagonismo 
+  examples: |
+    - no estoy de acuerdo
+    - no me gusta
+    - no me gusta esa idea
+    - no coincido
+    - no estoy seguro
+    - podriamos hacer otra cosa
+    - tengo otra idea
+    - quiza podemos hacer otra cosa
+    - me parece que no esta bien
+    - no esta bien
+    - no 
+
+    
